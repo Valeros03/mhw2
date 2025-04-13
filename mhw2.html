@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="mhw2.css"/>
+<script src="mhw2.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spotify</title>
+
+</head>
+
+<body>
+
+    <div class='hidden' id="dropdown-pam">
+        <a href="#">
+            <div>
+                <p class="open-sans">Premium</p>
+                <img src="https://img.icons8.com/?size=100&id=16139&format=png&color=FFFFFF" class="icon-image">
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <p class="open-sans">Assistenza</p>
+                <img src="https://img.icons8.com/?size=100&id=16139&format=png&color=FFFFFF" class="icon-image">
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <p class="open-sans">Download</p>
+                <img src="https://img.icons8.com/?size=100&id=16139&format=png&color=FFFFFF" class="icon-image">
+            </div>
+        </a>
+    </div>
+
+    <header class="header-page">
+       
+        <div class="exploration-group">
+
+        <div id="icon-space">
+
+            <a href="#" id="header-spotify-link">
+                <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_White.png" class="icon-image">
+            </a>
+        
+        </div>
+
+        <div id="searching-bar">
+
+            <a href="#" id="home-page-link">
+                
+                <img src="https://img.icons8.com/?size=100&id=83326&format=png&color=737373" id="home-page-icon">
+        
+            </a>
+
+
+            <button class="icon-button" id="search-button">
+                <img src="https://img.icons8.com/?size=100&id=7695&format=png&color=737373" class="searching-icon">
+            </button>
+
+            <div id="input-container" class="hover-highlighted">
+                
+                <input type="text" placeholder="Cosa vuoi ascoltare?">
+
+                <div class="splitter"></div>
+                <button class="icon-button">
+                <img src="https://img.icons8.com/?size=100&id=8UdGJMu2c9dS&format=png&color=737373" class="searching-icon">
+                </button>
+            </div>
+
+        </div>
+        </div>
+
+        <div id="util-group">
+        
+            <div id="pad-group">
+            <a href="#" class="gray-link open-sans"><strong>Premium</strong></a>
+            <a href="#" class="gray-link open-sans"><strong>Assistenza</strong></a>
+            <a href="#" class="gray-link open-sans"><strong>Download</strong></a>
+            </div>
+            <div class="splitter"></div>
+
+            <div id="download-area">
+                <img src="https://img.icons8.com/?size=100&id=83159&format=png&color=737373" id="download-icon">
+                <a href="#" class="gray-link open-sans"><strong>Installa app</strong></a>
+            </div>
+
+            <div id="authentication">
+                <a href="#" class="gray-link open-sans"><strong>Iscriviti</strong></a>
+                <button class="white-button open-sans"><strong>Accedi</strong></button>
+            </div>
+            <div id="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+                </div>
+        </div>
+      
+       
+    </header>
+
+    <div id="center-page">
+    <section class="user-panel">
+
+            <header class="header-user-panel">
+                <p class="white-text open-sans"><strong>La tua libreria</strong></p>
+                <button id="new-playlist"><img src="https://img.icons8.com/?size=100&id=3220&format=png&color=737373" class="searching-icon"/></button>
+            
+            </header>
+    <section class="user-playlists">
+
+                <div class="new-element">
+                <div class="text-new-element">
+                    <p class="white-text open-sans"><strong>Crea la tua prima playlist</strong></p>
+                    <p class="white-text open-sans">è facile, ti aiuteremo</p>
+                </div>
+                <button>Crea playlist</button>
+                </div>
+
+           
+                <div class="new-element">
+                <div class="text-new-element">
+                    <p class="white-text open-sans"><strong>Cerca qualche podacast da seguire</strong></p>
+                    <p class="white-text open-sans">Ti aggiorneremo sui nuovi episodi</p>
+                </div>
+                <button>Sfoglia i podacast</button>
+               </div>
+    </section>
+
+        <footer class="info">
+            <span class="info-group">
+                <a href="#">Informazioni legali</a>
+                <a href="#">Sicurezza e Centro sulla privacy</a>
+            </span>
+            <span class="info-group">
+                <a href="#">Informativa sulla privacy</a>
+                <a href="#">Impostazioni cookie</a>
+                <a href="#">Info annunci</a>
+            </span>
+            <span class="info-group">
+            <a href="#">Accessibilità</a>
+            <a href="#" id="politica-cookie">Politica sui cookie</a>
+            </span>
+        </footer>
+        
+    </section>
+    
+    <nav id="dashboard">
+        <div id="content-show">
+        <section class="group-content">
+            <header class="section-header-dashboard">
+                <p class="open-sans section-text"><strong>Artisti più popolari</strong></p>
+                <a href="#"><P>Mostra tutto</P></a>
+            </header>
+            <div class="show-category">
+                
+            <div class="element-show">
+
+                <img class="artist-icon" src="https://i.scdn.co/image/ab676161000051742aae1743e53fc160807d22f6">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Sebastiano Fichera</p>
+                <p class="gray-text">Artista</p>
+
+            </div>
+
+            <div class="element-show">
+
+                <img class="artist-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfPRYoo7VZz5-stPsFpVEzP7Va-J5hZk2XPQ&s">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">High Disaster</p>
+                <p class="gray-text">Artista</p>
+
+            </div>
+            <div class="element-show">
+
+                <img class="artist-icon" src="https://i.scdn.co/image/ab6761610000e5eb739a9aaca7901038da5bbb86">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Vittoria Sciacca</p>
+                <p class="gray-text">Artista</p>
+
+            </div>
+            <div class="element-show">
+
+                <img class="artist-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Linkin_Park_logo_2024.svg/2048px-Linkin_Park_logo_2024.svg.png">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Linkin Park</p>
+                <p class="gray-text">Artista</p>
+
+            </div>
+            <div class="element-show">
+
+                <img class="artist-icon" src="https://i.iheart.com/v3/catalog/artist/40497?ops=fit(480%2C480)%2Crun(%22circle%22)">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Sum41</p>
+                <p class="gray-text">Artista</p>
+
+            </div>
+
+            <div class="element-show">
+
+                <img class="artist-icon" src="https://i.scdn.co/image/ab6761610000e5eb0dc33cfd207772f8e2f6b46f">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Jimmy Eat World</p>
+                <p class="gray-text">Artista</p>
+
+            </div>
+            </div>
+        </section>
+
+        <section class="group-content">
+            <header class="section-header-dashboard">
+                <p class="open-sans section-text"><strong>Album e singoli più popolari</strong></p>
+                <a href="#"><P>Mostra tutto</P></a>
+            </header>
+            <div class="show-category">
+                
+            <div class="element-show">
+
+                <img class="album-icon" src="https://i.scdn.co/image/ab67616d00001e0284da03b9f97c394831b964ed">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Not me, A Character</p>
+                <p class="gray-text">Sebastiano Fichera</p>
+
+            </div>
+            <div class="element-show">
+
+                <img class="album-icon" src="https://i.scdn.co/image/ab67616d00001e029aabbac6f440f5e36e0a01d6">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Me and You</p>
+                <p class="gray-text">Sebastiano Fichera</p>
+
+            </div>
+
+            <div class="element-show">
+
+                <img class="album-icon" src="https://i.scdn.co/image/ab67616d00001e0217818df17859a85334545aac">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">A WAY OUT</p>
+                <p class="gray-text">High Disaster</p>
+
+            </div>
+            
+            <div class="element-show">
+
+                <img class="album-icon" src="https://i.scdn.co/image/ab67616d00001e0245d2232c3a1446759d399d73">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Do Not Lie</p>
+                <p class="gray-text">High Disaster</p>
+
+            </div>
+           
+            <div class="element-show">
+
+                <img class="album-icon" src="https://i.scdn.co/image/ab67616d00001e020fa24c9367d204411ed31e4c">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Ricaduta</p>
+                <p class="gray-text">Vittoria Sciacca</p>
+
+            </div>
+
+            <div class="element-show">
+
+                <img class="album-icon" src="https://i.scdn.co/image/ab67616d00001e02f1f2b11d1418f90664f9db7e">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="artist-name open-sans">Più o meno così</p>
+                <p class="gray-text">Vittoria Sciacca</p>
+
+            </div>
+
+            </div>
+        </section>
+        
+        <section class="group-content">
+            <header class="section-header-dashboard">
+                <p class="open-sans section-text"><strong>Stazioni radio più popolari</strong></p>
+                <a href="#"><P>Mostra tutto</P></a>
+            </header>
+            <div class="show-category">
+                
+            <div class="element-show">
+
+                <img class="album-icon" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4q3ewBCX7sLwd24euuV69X/it">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="gray-text">Con Feid,J Balvin,Arcàngel e molti altri</p>
+
+            </div>
+            <div class="element-show">
+
+                <img class="album-icon" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/25u1DN0MwQVSav4XoJS7hl/it">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="gray-text">Con Bresh, Alfa, Pinguini Tattici Nucleari e molti altri</p>
+
+            </div>
+
+            <div class="element-show">
+
+                <img class="album-icon" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0du5cEVh5yTK9QJze8zA0C/it">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="gray-text">Con Ed Sheeran, Shawn Mendes, Katy Perry e molti altri</p>
+
+            </div>
+            
+            <div class="element-show">
+
+                <img class="album-icon" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4gzpq5DPGxSnKTe4SA8HAU/it">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="gray-text">Con Harry Styles, Maroon 5, Oasis e molti altri</p>
+
+            </div>
+           
+            <div class="element-show">
+
+                <img class="album-icon" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1Xyo4u8uXC1ZmMpatF05PJ/it">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="gray-text">Con Tory Lanez, Doja Cat, Ariana Grande e molti altri</p>
+
+            </div>
+
+            <div class="element-show">
+
+                <img class="album-icon" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7F2utINZ6tSokSiZTQBE27/it">
+                <button class="icon-button play-over hidden"><img src="https://img.icons8.com/?size=100&id=36067&format=png&color=40C057" class="icon-image"></button>
+                <p class="gray-text">Con Club Dogo Marracash, Kid Yugi e molti altri</p>
+
+            </div>
+
+            </div>
+        </section>
+        </div>
+        <div id="footer-dash-section">
+            <div class="spotify-information">
+
+                <p class="white-text open-sans"><strong>Azienda</strong></p>
+                <a href="#" class="gray-link open-sans">Chi siamo</a>
+                <a href="#" class="gray-link open-sans">Opportunità di lavoro</a>
+                <a href="#" class="gray-link open-sans">For the Record</a>
+
+            </div>
+
+            <div class="spotify-information">
+
+                <p class="white-text open-sans"><strong>Comunity</strong></p>
+                <a href="#" class="gray-link open-sans">Per artisti</a>
+                <a href="#" class="gray-link open-sans">Sviluppatori</a>
+                <a href="#" class="gray-link open-sans">Pubblicità</a>
+                <a href="#" class="gray-link open-sans">Investitori</a>
+                <a href="#" class="gray-link open-sans">Venditori</a>
+
+            </div>
+
+            <div class="spotify-information">
+
+                <p class="white-text open-sans"><strong>Link utili</strong></p>
+                <a href="#" class="gray-link open-sans">Assistenza</a>
+                <a href="#" class="gray-link open-sans">App per cellulare gratuita</a>
+                <a href="#" class="gray-link open-sans">Diritti del consumatore</a>
+
+            </div>
+
+            <div class="spotify-information">
+
+                <p class="white-text open-sans"><strong>Piani Spotify</strong></p>
+                <a href="#" class="gray-link open-sans">Premium Individual</a>
+                <a href="#" class="gray-link open-sans">Premium Duo</a>
+                <a href="#" class="gray-link open-sans">Premium Family</a>
+                <a href="#" class="gray-link open-sans">Premium Student</a>
+                <a href="#" class="gray-link open-sans">Spotify Free</a>
+
+            </div>
+
+            <div class="flex-box-right">
+                <button class="icon-button gray-back">
+                    <img src="https://img.icons8.com/?size=100&id=32292&format=png&color=737373" class="searching-icon">
+                </button>
+                <button class="icon-button gray-back">
+                    <img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=737373" class="searching-icon">
+                </button>
+                <button class="icon-button gray-back">
+                    <img src="https://img.icons8.com/?size=100&id=118466&format=png&color=737373" class="searching-icon">
+                </button>
+            </div>
+
+        </div>
+
+    </nav>
+    </div>
+    <footer class="signin-banner">
+        <div id="banner-text">
+            <p><strong>Anteprima di Spotify</strong></p>
+            <p>Iscriviti per ricevere brani e podcast illimitati con annunci pubblicitari occasionali. Non è necessaria alcuna carta di credito.</p>
+        </div>
+
+        <button class="white-button">Inscriviti Gratis</button>
+    </footer>
+
+    
+</body>
+
+</html>
